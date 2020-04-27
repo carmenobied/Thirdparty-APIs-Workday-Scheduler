@@ -1,6 +1,6 @@
 # Third-Party APIs: Work Day Scheduler
 
-The goal was to create a simple calendar application that allows the user to save events for each hour of the day using third-party APIs. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery. This app uses the Moment.js library in the browser to work with date and time. Moment.js library allows you to parse, validate, manipulate, and display dates and times in JavaScript.
+The goal was to create a simple calendar application that allows the user to save events for each hour of the day using  APIs. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery. This app uses the Moment.js library in the browser to work with date and time. Moment.js library allows you to parse, validate, manipulate, and display dates and times in JavaScript.
 
 This Work Day Scheduler is aimed towards employees with a busy schedule who want to add important events to a daily planner so that they can manage their time effectively.
 
@@ -20,7 +20,7 @@ Moment.js library - functions - DOM methods - window object - jquery selectors -
 ```
 
 See animation below which demonstrates the application functionality:
-![Work Day Scheduler](/assets/Thirt-Party-APIS-homework.gif)
+![Work Day Scheduler](/assets/Thirt-Party-APIs-homework.gif)
 
 ## Key Checks Included ensuring the following:
 Given I am using a daily planner to create a schedule:
