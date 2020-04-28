@@ -1,4 +1,5 @@
 // 1. When I open the planner, then the current day is displayed at the top of the calendar
+    //Create global Scope variables
     // Load and render planner using jQuery / event delegation 
     // When page is loaded, retrive/display currentDate at the top using using moment().format(); and calling moment.js api
     // Create function to retrieve stored events from the local storage using localStorage.getItem();
@@ -23,14 +24,17 @@
     // Call the function for retrieving stored events at the end 
     // When page refreshes, repopulate the local storage stored events
 
+
+
 // START JS SCRIPT FOR jQUERY // 
 
-// Page is ready to load
+// Page is ready to run after html is loaded
     $(document).ready(function () {
         // When page is loaded, display currentDate at the top. Call moment.js api to display current date.
         var currentDate = moment().format("MMMM Do YYYY, h:mm:ss a"));
         $("#currentDate").text(currentDate);
         // Create retrieve local storage function using localStorage.getItem();
 
+        
 //   var storedEvents = JSON.parse(localStorage.getItem("storedEvents"));
 //   var storedEvents = JSON.stringify(localStorage.getItem("storedEvents"));
