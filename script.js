@@ -38,11 +38,11 @@
         localStorage.setItem("10AM", ($("#event2").val()))
         localStorage.setItem("11AM", ($("#event3").val()))
         localStorage.setItem("12AM", ($("#event4").val()))
-        localStorage.setItem("1PM", ($("#event5").val()))
-        localStorage.setItem("2PM", ($("#event6").val()))
-        localStorage.setItem("3PM", ($("#event7").val()))
-        localStorage.setItem("4PM", ($("#event8").val()))
-        localStorage.setItem("5PM", ($("#event9").val()))
+        localStorage.setItem("13PM", ($("#event5").val()))
+        localStorage.setItem("14PM", ($("#event6").val()))
+        localStorage.setItem("15PM", ($("#event7").val()))
+        localStorage.setItem("16PM", ($("#event8").val()))
+        localStorage.setItem("17PM", ($("#event9").val()))
     })
 
         //get stored items in the local storage and append. When refreshed, stored items display in the planner
