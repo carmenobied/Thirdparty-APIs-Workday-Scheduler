@@ -36,12 +36,10 @@
     var militaryHours = moment().format("H");
     console.log(militaryHours);
 
-
-
-    let userInput = "";
-    userInput = $("textarea").val();
-    $("#event1").html(userInput);
-    console.log(userInput);
+    // let userInput = "";
+    // userInput = $("textarea").val();
+    // $("#event1").html(userInput);
+    // console.log(userInput);
 
     timeblockColour();
 
@@ -50,11 +48,34 @@
         if ($(".timeblockRow").attr("value") === militaryHours) {
             $(".eventDescription").addClass("present");
             } else if ($(".timeblockRow").attr("value") > militaryHours) {
-                $(".eventDescription").addClass("future");
-            } else if ($(".timeblockRow").attr("value") < militaryHours) {
                 $(".eventDescription").addClass("past");
+            } else if ($(".timeblockRow").attr("value") < militaryHours) {
+                $(".eventDescription").addClass("future");
             }
             console.log($(".timeblockRow").attr("value"));
        };
+
+       $(".saveBtn").on("click", function () {
+        //setting items in the local storage
+        localStorage.setItem("9AM", ($("#event1").val()))
+        localStorage.setItem("10AM", ($("#event2").val()))
+        localStorage.setItem("11AM", ($("#event3").val()))
+        localStorage.setItem("12AM", ($("#event4").val()))
+        localStorage.setItem("1PM", ($("#event5").val()))
+        localStorage.setItem("2PM", ($("#event6").val()))
+        localStorage.setItem("3PM", ($("#event7").val()))
+        localStorage.setItem("4PM", ($("#event8").val()))
+        localStorage.setItem("5PM", ($("#event9").val()))
+
+        localStorage.getItem("9AM");
+        localStorage.getItem("10AM");
+        localStorage.getItem("11AM");
+        localStorage.getItem("12AM");
+        localStorage.getItem("1PM");
+        localStorage.getItem("2PM");
+        localStorage.getItem("3PM");
+        localStorage.getItem("4PM");
+        localStorage.getItem("5PM");
+       });
 
     })
