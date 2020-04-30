@@ -36,4 +36,25 @@
     var militaryHours = moment().format("H");
     console.log(militaryHours);
 
-})
+
+
+    let userInput = "";
+    userInput = $("textarea").val();
+    $("#event1").html(userInput);
+    console.log(userInput);
+
+    timeblockColour();
+
+    function timeblockColour() {
+        // change timeblock colour based on past, presebt, future
+        if ($(".timeblockRow").attr("value") === militaryHours) {
+            $(".eventDescription").addClass("present");
+            } else if ($(".timeblockRow").attr("value") > militaryHours) {
+                $(".eventDescription").addClass("future");
+            } else if ($(".timeblockRow").attr("value") < militaryHours) {
+                $(".eventDescription").addClass("past");
+            }
+            console.log($(".timeblockRow").attr("value"));
+       };
+
+    })
