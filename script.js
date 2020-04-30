@@ -31,7 +31,7 @@
             console.log($(".timeblockRow").attr("value"));
        }
 
-        // Save button event listener
+        // Save Button event listenr
        $(".saveBtn").on("click", function () {
         //setting items in the local storage
         localStorage.setItem("9AM", ($("#event1").val()))
