@@ -20,7 +20,7 @@ Moment.js library - functions - DOM methods - window object - jquery selectors -
 ```
 
 See animation below which demonstrates the application functionality:
-![Work Day Scheduler](/assets/Thirt-Party-APIs-homework.gif)
+![Work Day Scheduler](/assets/Third-Party-APIs-homework-demo.gif)
 
 ## Key Checks Included ensuring the following:
 Given I am using a daily planner to create a schedule:
