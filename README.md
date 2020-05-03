@@ -4,6 +4,8 @@ The goal was to create a simple calendar application that allows the user to sav
 
 This Work Day Scheduler is aimed towards employees with a busy schedule who want to add important events to a daily planner so that they can manage their time effectively.
 
+You can explorer the Work Day Scheduler here: https://carmenobied.github.io/week5-homework/ 
+
 ## Installation
 ```
 i. Fork the Github repository.
