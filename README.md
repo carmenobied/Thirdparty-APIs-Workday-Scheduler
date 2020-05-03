@@ -21,7 +21,10 @@ jQuery Components Used:
 Moment.js library - functions - DOM methods - window object - jquery selectors - jquery callbacks - append - timers - event delegation - JSON - client-side storage 
 ```
 
-See animation below which demonstrates the application functionality:
+See animation below which demonstrates the final application functionality of the Work Day Scheduler:
+![Carmen's Work Day Scheduler](/assets/Demo_CarmensWorkDayScheduler.gif)
+
+See example demo below:
 ![Work Day Scheduler](/assets/Third-Party-APIs-homework-demo.gif)
 
 ## Key Checks Included ensuring the following:
