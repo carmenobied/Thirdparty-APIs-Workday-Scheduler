@@ -1,3 +1,7 @@
+header {
+  background-image: url("assets/FreeDiving_Cyprus.jpg");
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -10,13 +14,14 @@ textarea{
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
+  padding: 10x;
 }
 
 .jumbotron {
+  background-size: cover;
   text-align: center;
   background-color: transparent;
-  color: black;
+  color:white; 
   border-radius: 0;
   border-bottom: 10px solid black;
 }
