@@ -24,9 +24,6 @@ Moment.js library - functions - DOM methods - window object - jquery selectors -
 See animation below which demonstrates the final application functionality of the Work Day Scheduler:
 ![Carmen's Work Day Scheduler](/assets/Demo_CarmensWorkDayScheduler.gif)
 
-See example demo below:
-![Work Day Scheduler](/assets/Third-Party-APIs-homework-demo.gif)
-
 ## Key Checks Included ensuring the following:
 Given user is using a daily planner to create a schedule:
 1. When user opens the planner, then the current day is displayed at the top of the calendar
