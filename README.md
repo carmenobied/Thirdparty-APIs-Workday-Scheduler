@@ -16,17 +16,17 @@ v. Enter and save events into the planner.
 ## Usage
 jQuery Components Used:
 ```bash
-Moment.js library - functions - DOM methods - window object - jquery selectors - jquery callbacks - append - timers - event delegation - client-side storage 
+Moment.js library - functions - DOM methods - window object - jquery selectors - jquery callbacks - append - timers - event delegation - JSON - client-side storage 
 ```
 
 See animation below which demonstrates the application functionality:
 ![Work Day Scheduler](/assets/Third-Party-APIs-homework-demo.gif)
 
 ## Key Checks Included ensuring the following:
-Given I am using a daily planner to create a schedule:
-1. When I open the planner, then the current day is displayed at the top of the calendar
-2. When I scroll down, then I am presented with timeblocks for standard business hours
-3. When I view the timeblocks for that day, then each timeblock is color coded to indicate whether it is in the past, present, or future
-4. When I click into a timeblock, then I can enter an event
-5. When I click the save button for that timeblock, then text for that event is saved in local storage
-6. When I refresh the page, then the saved events persist
+Given user is using a daily planner to create a schedule:
+1. When user opens the planner, then the current day is displayed at the top of the calendar
+2. When user scrolls down, then user is presented with timeblocks for standard business hours
+3. When user views the timeblocks for that day, then each timeblock is color coded to indicate whether it is in the past, present, or future
+4. When user clicks into a timeblock, then user can enter an event
+5. When user clicks the save button for that timeblock, then text for that event is saved in local storage
+6. When user refreshes the page, then the saved events persist
